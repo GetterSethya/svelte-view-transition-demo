@@ -2,8 +2,6 @@
 	import type { PageData } from './$types';
 	import { page } from '$app/stores';
 	export let data: PageData;
-
-	console.log($page.params.id);
 </script>
 
 <div class="container-fluid" style="position:relative">
